@@ -35,3 +35,29 @@ body {
 .instagram__logo{
 	width: 10em;
 }
+
+.stories {
+	width: 100%;
+	overflow-x: auto;
+}
+
+.stories__list {
+	list-style: none;
+	display: flex;
+}
+
+.stories__itens {
+	padding: 2px;
+	border-radius: 100px;
+}
+
+.stories__itens--new {
+	background-image: gradient(linear, right top, left top, from(#AB248A), to(#F29C4F));
+ 	background-image: linear-gradient(270deg, #AB248A 0%, #F29C4F 100%);
+}
+
+.stories__itens	img{
+	width: 5em;
+	border-radius: 100%;
+	border: 2px solid #fafafa;
+}
